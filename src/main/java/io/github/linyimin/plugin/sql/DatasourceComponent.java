@@ -58,7 +58,7 @@ public class DatasourceComponent {
         properties.put(DruidDataSourceFactory.PROP_URL, url);
         properties.put(DruidDataSourceFactory.PROP_USERNAME, component.getUser());
         properties.put(DruidDataSourceFactory.PROP_PASSWORD, component.getPassword());
-        properties.put(DruidDataSourceFactory.PROP_DRIVERCLASSNAME, "com.mysql.cj.jdbc.Driver");
+        properties.put(DruidDataSourceFactory.PROP_DRIVERCLASSNAME, "org.postgresql.Driver");
         properties.put(DruidDataSourceFactory.PROP_MINIDLE, "5");
         properties.put(DruidDataSourceFactory.PROP_MAXACTIVE, "10");
         properties.put(DruidDataSourceFactory.PROP_MAXWAIT, "5000");
